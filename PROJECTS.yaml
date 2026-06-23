@@ -1,0 +1,96 @@
+# DD 项目台账 — 单一真相源
+# 更新规则：新建/上线/归档项目时必须改此文件
+
+organization: zhouxianliang73
+local_root: D:\DD-cursor
+updated: "2026-06-22"
+
+projects:
+  - id: mkt
+    name: 营销站（户外厨房官网）
+    tier: core
+    local_path: D:\DD-cursor
+    repo: dd-deep-design
+    remote: https://github.com/zhouxianliang73/dd-deep-design.git
+    branch: master
+    pages: https://zhouxianliang73.github.io/dd-deep-design/
+    status: active
+    notes: 根目录即仓库；勿提交子项目目录
+
+  - id: sc
+    name: 方案中心
+    tier: core
+    local_path: D:\DD-cursor\scheme-center
+    repo: dd-design
+    remote: https://github.com/zhouxianliang73/dd-design.git
+    branch: main
+    pages: https://zhouxianliang73.github.io/dd-design/
+    status: active
+    notes: 改 1.md 后同步 1.html；catalog.json 为产品库
+
+  - id: tq
+    name: THOR 不锈钢橱柜报价
+    tier: core
+    local_path: D:\DD-cursor\thor-quote
+    repo: thor-quote
+    remote: https://github.com/zhouxianliang73/thor-quote.git
+    branch: master
+    pages: https://zhouxianliang73.github.io/thor-quote/
+    status: active
+    notes: 含 pricing json5 与 generate_data 脚本
+
+  - id: ds
+    name: 项目交付标准
+    tier: core
+    local_path: D:\DD-cursor\delivery-system
+    repo: delivery-system
+    remote: https://github.com/zhouxianliang73/delivery-system.git
+    branch: main
+    pages: https://zhouxianliang73.github.io/delivery-system/
+    status: active
+    notes: delivery-page-template.html 本地大文件，已 gitignore
+
+  - id: ss
+    name: 供应商选择器
+    tier: matrix
+    local_path: D:\DD-cursor\supplier-selector
+    repo: null
+    remote: null
+    branch: master
+    pages: null
+    status: draft
+    notes: 待建 GitHub 仓库或归档
+
+  - id: os
+    name: 户外方案独立站
+    tier: matrix
+    local_path: D:\DD-cursor\outdoor-solutions独立站
+    repo: null
+    remote: null
+    branch: master
+    pages: null
+    status: draft
+    notes: 文件夹名待改为 outdoor-solutions
+
+  - id: kl
+    name: 厨房落地页
+    tier: matrix
+    local_path: null
+    repo: null
+    remote: null
+    branch: null
+    pages: null
+    status: planned
+    notes: 仍在 CAB-sites，未迁入
+
+meta:
+  - id: workspace
+    name: 工作区文档
+    tier: meta
+    local_path: D:\DD-cursor\_workspace
+    repo: dd-workspace
+    remote: https://github.com/zhouxianliang73/dd-workspace.git
+    branch: main
+    pages: null
+    status: active
+    notes: 治理文档 PORTFOLIO / PROJECTS.yaml / WORKFLOW；不部署 Pages
