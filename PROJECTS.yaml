@@ -54,12 +54,12 @@ projects:
     name: 供应商选择器
     tier: matrix
     local_path: D:\DD-cursor\supplier-selector
-    repo: null
-    remote: null
-    branch: master
-    pages: null
-    status: draft
-    notes: 待建 GitHub 仓库或归档
+    repo: supplier-selector
+    remote: https://github.com/zhouxianliang73/supplier-selector.git
+    branch: main
+    pages: https://zhouxianliang73.github.io/supplier-selector/
+    status: active
+    notes: 配套选型系统；矩阵层工具
 
   - id: os
     name: 户外方案独立站

@@ -8,18 +8,17 @@
 | [PROJECTS.yaml](./PROJECTS.yaml) | 项目台账（所有仓库一览） |
 | [WORKFLOW.md](./WORKFLOW.md) | Git 新手日常命令 |
 
-## 建议
+**GitHub：** https://github.com/zhouxianliang73/dd-workspace（不部署 Pages，仅文档备份）
 
-在 GitHub 创建 **`dd-workspace`** 仓库，仅用于备份这些文档：
+## 日常更新
+
+改完治理文档后：
 
 ```powershell
 cd D:\DD-cursor\_workspace
-git init
-git remote add origin https://github.com/zhouxianliang73/dd-workspace.git
 git add .
-git commit -m "init: portfolio governance docs"
-git branch -M main
-git push -u origin main
+git commit -m "docs: 说明改了什么"
+git push origin main
 ```
 
-快速索引见上级目录 [WORKSPACE.md](../WORKSPACE.md)。
+快速索引见上级目录 [WORKSPACE.md](../WORKSPACE.md)（本地文件，不进营销站仓库）。
