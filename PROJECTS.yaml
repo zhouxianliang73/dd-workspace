@@ -50,6 +50,17 @@ projects:
     status: active
     notes: delivery-page-template.html 本地大文件，已 gitignore
 
+  - id: ok
+    name: 户外厨房独立站
+    tier: matrix
+    local_path: D:\DD-cursor\outdoor-kitchen
+    repo: outdoor-kitchen
+    remote: https://github.com/zhouxianliang73/outdoor-kitchen.git
+    branch: main
+    pages: https://zhouxianliang73.github.io/outdoor-kitchen/
+    status: active
+    notes: 独立品类门面；数据在 scheme-center JSON；链 channel=outdoor-kitchen
+
   - id: ss
     name: 供应商选择器
     tier: matrix
